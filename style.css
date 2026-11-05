@@ -1,0 +1,33 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.chess{
+   
+    font-size: 50px;
+    top: 0px;
+    position: absolute;
+}
+.container{
+    margin-top: 100px;
+    width: 80%;
+    height: 928px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+.container div{
+    width: 80px;
+    height: 116px;
+    width: calc(100%/8);
+    height: calc(100%/8);
+    font-size: 50px;
+}
+.box{
+    background-color: white;
+}
+
+.boxblack{
+    background-color: black;
+}
